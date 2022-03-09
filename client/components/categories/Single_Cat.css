@@ -1,0 +1,21 @@
+.single-category-container {
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.single-category-products {
+  display: flex;
+  min-width: 1000px;
+  max-width: 1338px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Image--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

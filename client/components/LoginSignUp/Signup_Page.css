@@ -1,0 +1,117 @@
+.signup-page {
+  display: flex;
+  background-color: #0b1426;
+  color: #ffffff;
+  width: 100vw;
+  min-width: 900px;
+}
+
+.signup-containter {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  min-height: 900px;
+  padding: 100px;
+  min-width: 650px;
+}
+
+.signup-form-item {
+  margin: 20px;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.sign-up-header {
+  margin: 20px;
+}
+
+.signup-containter > p {
+  margin-left: 20px;
+}
+
+.signup-containter > Link {
+  margin: 20px;
+}
+
+.terms_cond {
+  display: flex;
+}
+
+.terms_cond > input {
+  margin-right: 10px;
+}
+
+.signup-poster {
+  width: 50vw;
+  background: url("https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80")
+    no-repeat 95% 50%;
+  background-size: cover;
+  color: #ffffff;
+  height: 100vh;
+  min-height: 900px;
+  min-width: 650px;
+}
+
+.blur {
+  background-color: rgba(11, 20, 38, 0.543);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.signup-containter > input {
+  background-color: rgb(27, 35, 50);
+  outline: none;
+  box-shadow: 0px 0px 5px #61c5fa;
+  border: 1px solid #5ab0db;
+  color: #ffffff;
+}
+
+.signup-containter > input {
+  background-color: rgb(27, 35, 50);
+  outline: none;
+  box-shadow: 0px 0px 5px #61c5fa;
+  border: 1px solid #5ab0db;
+  color: #ffffff;
+}
+
+.signup-containter > input:focus:hover {
+  outline: none;
+  box-shadow: 0px 0px 5px #61c5fa;
+  border: 1px solid #5ab0db;
+  border-radius: 0;
+}
+
+.blur > h1 {
+  max-width: 700px;
+}
+
+#signup-form-link {
+  color: #08acfe;
+  padding: 0;
+}
+
+#signup-form-link:hover {
+  color: #0283c4;
+}
+
+.view-pw {
+  margin: 0.5rem 0.5rem 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.MuiPaper-root {
+  height: 3rem;
+  margin: 0.5;
+}
+
+.MuiAlert-icon {
+  margin: 0;
+}
+
+.MuiAlert-message {
+  margin: 0;
+  text-align: center;
+}

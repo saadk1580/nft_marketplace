@@ -1,0 +1,24 @@
+.edit-container {
+  position: fixed;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  background-color: #35353556;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.edit-form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-form {
+  background-color: #ffffff;
+  width: 500px;
+
+  position: fixed;
+}

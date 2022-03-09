@@ -1,0 +1,194 @@
+.add-product-page {
+  background-color: #0b1426;
+  list-style-type: lower-alpha;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 1.5rem;
+  height: 100vh;
+}
+
+.add-product-page > h1 {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.add-product-cont {
+  border: solid 2px rgb(172, 169, 169);
+  background-color: white;
+  margin: 0rem 1rem 3rem 1rem;
+  padding: 0;
+  display: flex;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+}
+
+.add-product-text-cont {
+  width: 49.8rem;
+  margin: 0rem 0rem 1rem 0rem;
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+  flex-direction: column;
+}
+
+.ap-submit-button {
+  display: flex;
+  margin-left: 15rem;
+  padding: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(172, 169, 169) 0%,
+    rgb(214, 211, 211) 25%,
+    rgb(238, 234, 234) 50%,
+    rgb(214, 211, 211) 75%,
+    rgb(172, 169, 169) 100%
+  );
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 2rem;
+}
+
+.cp-name-cont {
+  display: flex;
+  height: 2rem;
+}
+
+.cp-name-cont > label {
+  display: flex;
+  width: 4rem;
+  align-items: end;
+}
+
+.cp-name-cont > input {
+  border-bottom: solid 2px rgb(172, 169, 169);
+  width: 20vw;
+  display: flex;
+  text-align: center;
+}
+
+.cp-price-cont {
+  display: flex;
+  height: 2rem;
+}
+
+.cp-price-cont > label {
+  display: flex;
+  width: 4rem;
+  align-items: end;
+}
+
+.cp-price-cont > input {
+  border-bottom: solid 2px rgb(172, 169, 169);
+  width: 20vw;
+  display: flex;
+  text-align: center;
+}
+
+.cp-inv-cont {
+  display: flex;
+  height: 2rem;
+}
+
+.cp-inv-cont > label {
+  display: flex;
+  width: 5rem;
+  align-items: end;
+}
+
+.cp-inv-cont > input {
+  border-bottom: solid 2px rgb(172, 169, 169);
+  width: 20vw;
+  display: flex;
+  text-align: center;
+}
+
+.cp-cat-cont {
+  display: flex;
+  height: 2rem;
+}
+
+.cp-cat-cont > label {
+  display: flex;
+  width: 5rem;
+  align-items: end;
+}
+
+.cp-cat-cont > input {
+  border-bottom: solid 2px rgb(172, 169, 169);
+  width: 20vw;
+  display: flex;
+  text-align: center;
+}
+
+.cp-descrip-cont {
+  display: flex;
+  height: 2rem;
+}
+
+.cp-descrip-cont > label {
+  display: flex;
+  align-items: end;
+  width: 13rem;
+}
+
+.cp-descrip-cont > input {
+  border-bottom: solid 2px rgb(172, 169, 169);
+  width: 100vw;
+  display: flex;
+  text-align: center;
+}
+
+.cp-image-cont {
+  display: flex;
+  height: 2rem;
+}
+
+.cp-image-cont > label {
+  display: flex;
+  align-items: end;
+  width: 13rem;
+}
+
+.cp-image-cont > input {
+  border-bottom: solid 2px rgb(172, 169, 169);
+  width: 100vw;
+  display: flex;
+  text-align: center;
+}
+
+/* .ap-header {
+  border-bottom: solid 2px rgb(238, 234, 234);
+  display: flex;
+  background: linear-gradient(
+    to bottom,
+    rgb(172, 169, 169) 0%,
+    rgb(214, 211, 211) 50%,
+    rgb(238, 234, 234) 100%
+  );
+  border-top-right-radius: 0.7rem;
+  border-top-left-radius: 0.7rem;
+  height: 2rem;
+}
+
+.ap-footer {
+  border-bottom: solid 2px rgb(172, 169, 169);
+  display: flex;
+  background: linear-gradient(
+    to bottom,
+    rgb(238, 234, 234) 0%,
+    rgb(214, 211, 211) 50%,
+    rgb(172, 169, 169) 100%
+  );
+  border-bottom-right-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+  height: 2rem;
+} */
